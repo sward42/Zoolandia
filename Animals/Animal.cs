@@ -10,5 +10,9 @@ namespace Zoolandia.Animals
         {
             return "Animal is sleeping";
         }
+        public virtual void Type()
+        {
+            Console.Write( "This animal is a mammal.");
+        }
     }
 }
