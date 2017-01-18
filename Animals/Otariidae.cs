@@ -17,5 +17,18 @@ namespace Zoolandia.Animals
         {
             this.name = "Penelope";
         }
+        public Otariidae(string name)
+        {
+            this.name = name;
+        }
+        public Otariidae(int weightKg)
+        {
+            this.weightKg = weightKg;
+        }
+        public Otariidae(int weightKg, string name)
+        {
+            this.weightKg = weightKg;
+            this.name = name;
+        }
     }
 }

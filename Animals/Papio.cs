@@ -16,5 +16,18 @@ namespace Zoolandia.Animals
         {
             this.name = "Bernard";
         }
+        public Papio(string name)
+        {
+            this.name = name;
+        }
+        public Papio(int weightKg)
+        {
+            this.weightKg = weightKg;
+        }
+        public Papio(int weightKg, string name)
+        {
+            this.weightKg = weightKg;
+            this.name = name;
+        }
     }
 }

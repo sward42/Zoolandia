@@ -18,6 +18,18 @@ namespace Zoolandia.Animals
         {
             this.name = "Spike";
         }
-        
+        public MolochHorridus(string name)
+        {
+            this.name = name;
+        }
+        public MolochHorridus(int weightKg)
+        {
+            this.weightKg = weightKg;
+        }
+        public MolochHorridus(int weightKg, string name)
+        {
+            this.name = name;
+            this.weightKg = weightKg;
+        }
     }
 }

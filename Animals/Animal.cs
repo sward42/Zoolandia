@@ -6,6 +6,7 @@ namespace Zoolandia.Animals
     {
         public string name { get; set; }
         public string color { get; set; }
+        public int weightKg { get; set; }
         public string Sleep()
         {
             return "Animal is sleeping";

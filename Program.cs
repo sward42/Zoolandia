@@ -25,6 +25,27 @@ namespace Zoolandia.Animals
 
             Console.WriteLine($"{SeaLion.name} is my friendly {SeaLion.commonName} who enjoys spending her time in {SeaLion.habitat}.  She prefers the water because it is easier to move about since she weighs nearly {SeaLion.maxWeightKg} kg!");
             SeaLion.Type();
+
+            var Lizard = new MolochHorridus("Buffy");
+            Console.WriteLine(Lizard.name);
+
+            var Ape = new Papio("Matilda");
+            Console.WriteLine(Ape.name);
+
+            var SeaMammal = new Otariidae("Edward");
+            Console.WriteLine(SeaMammal.name);
+
+            var Scaly = new MolochHorridus(3);
+            Console.WriteLine(Scaly.weightKg);
+
+            var Baboon2 = new Papio(10);
+            Console.WriteLine(Baboon2.weightKg);
+
+            var Swimmy = new Otariidae(800);
+            Console.WriteLine(Swimmy.weightKg);
+
+            var Lizzy = new MolochHorridus(5,"Lou");
+            Console.WriteLine(Lizzy.name + Lizzy.weightKg);
         }
     }
 }
