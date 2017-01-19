@@ -13,7 +13,7 @@ namespace Zoolandia.Animals
         }
         public virtual void Type()
         {
-            Console.Write( "This animal is a mammal.");
+            Console.Write( "This animal is...");
         }
     }
 }

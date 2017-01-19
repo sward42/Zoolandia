@@ -2,7 +2,7 @@ using System;
 
 namespace Zoolandia.Animals
 {
-    public class Papio : Animal
+    public class Papio : Primates
     {
         public string commonName = "baboon";
         public string diet = "omnivore";
