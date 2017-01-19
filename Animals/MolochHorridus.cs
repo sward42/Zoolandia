@@ -2,7 +2,7 @@ using System;
 
 namespace Zoolandia.Animals
 {
-    public class MolochHorridus : Animal
+    public class MolochHorridus : Agamidae
     {
         public string commonName = "Thorny Devil";
         public int speedKph = 60;

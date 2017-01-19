@@ -2,7 +2,7 @@ using System;
 
 namespace Zoolandia.Animals
 {
-    public class Otariidae : Animal
+    public class Otariidae : Carnivora
     {
         public string commonName = "Sea Lion";
 
