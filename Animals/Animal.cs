@@ -2,7 +2,7 @@ using System;
 
 namespace Zoolandia.Animals
 {
-    public class Animal
+    public class Animal: IReptile
     {
         public string name { get; set; }
         public string color { get; set; }
@@ -14,6 +14,21 @@ namespace Zoolandia.Animals
         public virtual void Type()
         {
             Console.Write( "This animal is...");
+        }
+
+        bool IReptile.hasScales()
+        {
+            return true;
+        }
+
+        void IReptile.noFlight()
+        {
+            Console.WriteLine("Reptiles do not fly, only glide.");
+        }
+
+        void IReptile.iceCold()
+        {
+            Console.WriteLine("Reptiles can not regulate their own body temperature internally.");
         }
     }
 }
